@@ -14,7 +14,9 @@ body {
   margin: 20px;
   display: inline-block;
   border: 2px solid black;
+  line-height: 2em;
   margin-left: 65px;
+  padding-bottom: 50px;
 }
 .bookTitle {
   text-align: center;

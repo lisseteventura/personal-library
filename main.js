@@ -134,7 +134,7 @@ function displayMyLibrary() {
         bookContainer.appendChild(read);
       } else if (key === "rented") {
         let rented = document.createElement("span");
-        rented.innerHTML = "Rented: ";
+        rented.innerHTML = "</br>" + "Rented: ";
         let rentedButton = document.createElement("button");
         //if statement to set the content of a button
         if (book[key] === "yes") {
